@@ -11,6 +11,9 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class main {
     public static void main(String[] args) {
         // 01.array
+        System.out.println("");
+        System.out.println("######## 01.array ########");
+        System.out.println("");
         Array numberOneExample = new Array();
         numberOneExample.getOneDemesionArray();
         System.out.println("");
@@ -21,6 +24,8 @@ public class main {
 
         // 02.queue
         // 02-(1). 언어적 차원에서 지원하는 큐(Queue)로 구현
+        System.out.println("######## 02.queue ########");
+        System.out.println("");
         Queue<Cat> cat_queue = new ArrayDeque<>();
         cat_queue.add(new Cat(1,"somi"));
         cat_queue.add(new Cat(2,"semi"));
@@ -61,6 +66,6 @@ public class main {
         System.out.println("");
 
         // 02-(4). 리스트를 변수로 하여 우선순위 큐(Priority Queue) 구현
-
+        // 추후 구현하여 업데이트 하겠습니다
     }
 }
