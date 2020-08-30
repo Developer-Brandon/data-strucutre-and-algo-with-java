@@ -1,7 +1,6 @@
 package src.array.library;
 
-public class
-Array {
+public class Array {
     // 1차원 배열 리스트로 구현 & 1차원 배열 순회하기
     private int[] numberList = {1, 2, 3};
 
@@ -9,8 +8,6 @@ Array {
         for (int i = 0; i < numberList.length; i++) {
             System.out.print(numberList[i] + " ");
         }
-        System.out.println("");
-        System.out.println("");
     }
 
     // 2차원 배열 리스트로 구현 & 2차원 배열 순회하기
@@ -22,7 +19,5 @@ Array {
                 System.out.print(numberList2[i][j] + " ");
             }
         }
-        System.out.println("");
-        System.out.println("");
     }
 }
