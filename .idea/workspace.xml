@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22cd4eaf-37ac-4d33-a3b2-48361d04f74d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/stack/library/BdStack.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/three-language-algo/main.class" afterPath="$PROJECT_DIR$/out/production/three-language-algo/main.class" />
       <change beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
+      <change beforePath="$PROJECT_DIR$/src/stack/library/BdStack.java" afterPath="$PROJECT_DIR$/src/stack/library/BdStack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,37 +61,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="205">
+              <caret line="99" column="64" lean-forward="true" selection-start-line="99" selection-start-column="64" selection-end-line="99" selection-end-column="64" />
               <folding>
-                <element signature="e#2040#2154#0" expanded="true" />
-                <element signature="e#2040#2154#0" expanded="true" />
+                <element signature="e#2155#2269#0" expanded="true" />
+                <element signature="e#2155#2269#0" expanded="true" />
+                <element signature="e#2858#4116#0" expanded="true" />
+                <element signature="e#2858#4116#0" expanded="true" />
+                <element signature="e#3115#3248#0" expanded="true" />
+                <element signature="e#3115#3248#0" expanded="true" />
+                <element signature="e#3429#3467#0" expanded="true" />
+                <element signature="e#3429#3467#0" expanded="true" />
+                <element signature="e#3492#3618#0" expanded="true" />
+                <element signature="e#3492#3618#0" expanded="true" />
+                <element signature="e#3800#3839#0" expanded="true" />
+                <element signature="e#3800#3839#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BdStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BdStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stack/library/BdStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="845">
+              <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
               <folding>
                 <element signature="e#401#528#0" expanded="true" />
                 <element signature="e#401#528#0" expanded="true" />
-                <element signature="e#1463#1633#0" expanded="true" />
-                <element signature="e#1476#1491#0" expanded="true" />
-                <element signature="e#1463#1633#0" expanded="true" />
-                <element signature="e#1539#1623#0" expanded="true" />
-                <element signature="e#1539#1623#0" expanded="true" />
-                <element signature="e#2247#2503#0" expanded="true" />
-                <element signature="e#2247#2503#0" expanded="true" />
-                <element signature="e#2347#2493#0" expanded="true" />
-                <element signature="e#2347#2493#0" expanded="true" />
-                <element signature="e#2423#2437#0" expanded="true" />
+                <element signature="e#1468#1638#0" expanded="true" />
+                <element signature="e#1481#1496#0" expanded="true" />
+                <element signature="e#1468#1638#0" expanded="true" />
+                <element signature="e#1544#1628#0" expanded="true" />
+                <element signature="e#1544#1628#0" expanded="true" />
+                <element signature="e#2249#2505#0" expanded="true" />
+                <element signature="e#2249#2505#0" expanded="true" />
+                <element signature="e#2349#2495#0" expanded="true" />
+                <element signature="e#2349#2495#0" expanded="true" />
+                <element signature="e#2425#2439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/queue/vo/Cat.java" />
         <option value="$PROJECT_DIR$/src/queue/library/BdQueue.java" />
         <option value="$PROJECT_DIR$/src/stack/library/bdStackException.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/stack/library/BdStack.java" />
+        <option value="$PROJECT_DIR$/src/main.java" />
       </list>
     </option>
   </component>
@@ -528,7 +539,7 @@
       <workItem from="1598711824502" duration="3708000" />
       <workItem from="1598717462471" duration="10815000" />
       <workItem from="1598772563571" duration="1673000" />
-      <workItem from="1598775871120" duration="31844000" />
+      <workItem from="1598775871120" duration="34484000" />
     </task>
     <task id="LOCAL-00001" summary="- queue 구현">
       <created>1598798345619</created>
@@ -544,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598806996706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Stack 구현 중 ...">
+      <created>1598854481883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598854481883</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51011000" />
+    <option name="totallyTimeSpent" value="53651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
@@ -569,11 +587,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32638165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4358707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5411887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +618,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- queue 구현" />
     <MESSAGE value="- Queue 구현, Stack 준비중" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Queue 구현, Stack 준비중" />
+    <MESSAGE value="- Stack 구현 중 ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Stack 구현 중 ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -627,8 +646,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding>
-            <element signature="e#2040#2154#0" expanded="true" />
-            <element signature="e#2040#2154#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,8 +675,18 @@
         <state relative-caret-position="91">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#2040#2154#0" expanded="true" />
-            <element signature="e#2040#2154#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,8 +708,18 @@
         <state relative-caret-position="91">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#2040#2154#0" expanded="true" />
-            <element signature="e#2040#2154#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,17 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="e#2040#2154#0" expanded="true" />
-            <element signature="e#2040#2154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queue/vo/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -760,21 +798,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/library/BdStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="845">
+          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
           <folding>
             <element signature="e#401#528#0" expanded="true" />
             <element signature="e#401#528#0" expanded="true" />
-            <element signature="e#1463#1633#0" expanded="true" />
-            <element signature="e#1476#1491#0" expanded="true" />
-            <element signature="e#1463#1633#0" expanded="true" />
-            <element signature="e#1539#1623#0" expanded="true" />
-            <element signature="e#1539#1623#0" expanded="true" />
-            <element signature="e#2247#2503#0" expanded="true" />
-            <element signature="e#2247#2503#0" expanded="true" />
-            <element signature="e#2347#2493#0" expanded="true" />
-            <element signature="e#2347#2493#0" expanded="true" />
-            <element signature="e#2423#2437#0" expanded="true" />
+            <element signature="e#1468#1638#0" expanded="true" />
+            <element signature="e#1481#1496#0" expanded="true" />
+            <element signature="e#1468#1638#0" expanded="true" />
+            <element signature="e#1544#1628#0" expanded="true" />
+            <element signature="e#1544#1628#0" expanded="true" />
+            <element signature="e#2249#2505#0" expanded="true" />
+            <element signature="e#2249#2505#0" expanded="true" />
+            <element signature="e#2349#2495#0" expanded="true" />
+            <element signature="e#2349#2495#0" expanded="true" />
+            <element signature="e#2425#2439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="99" column="64" lean-forward="true" selection-start-line="99" selection-start-column="64" selection-end-line="99" selection-end-column="64" />
+          <folding>
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2155#2269#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#2858#4116#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3115#3248#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3429#3467#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3492#3618#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
+            <element signature="e#3800#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>

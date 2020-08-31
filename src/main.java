@@ -1,11 +1,14 @@
+import com.sun.org.apache.xml.internal.utils.IntStack;
 import src.array.library.Array;
 import src.queue.library.BdQueue;
 
 import src.queue.vo.Cat;
+import src.stack.library.BdStack;
 
 import java.util.ArrayDeque;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Scanner;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class main {
@@ -69,6 +72,50 @@ public class main {
         // 추후 구현하여 업데이트 하겠습니다
 
         // 03. stack
+        Scanner scannerIn = new Scanner(System.in);
+        BdStack bdStack = new BdStack(64);
+
+        while(true) {
+            System.out.println("현재 데이터 수 : " + bdStack.getStackSize() + "/" + bdStack.getStackVolume());
+            System.out.println("(1)푸시 (2)펍 (3)피크 (4)덤프 (0)종료");
+
+            int menu = scannerIn.nextInt();
+            if(menu == 0) break;
+
+            int inputedValueByUser;
+            switch (menu) {
+                case 1:
+                    System.out.println("데이터: ");
+                    inputedValueByUser = scannerIn.nextInt();
+                    try {
+                        bdStack.push(inputedValueByUser);
+                    } catch (BdStack.OverflowIntStackException e) {
+                        System.out.println("Stack이 가득 찼습니다" + e);
+                    }
+                    break;
+                case 2:
+                    try {
+                        inputedValueByUser = bdStack.pop();
+                        System.out.println("Pop한 데이터는 "+inputedValueByUser+" 입니다");
+                    } catch (BdStack.EmptyIntStackException e) {
+                        System.out.println("Stack이 비어있습니다.");
+                    }
+                    break;
+                case 3:
+                    try {
+                        inputedValueByUser = bdStack.peek();
+                        System.out.println("Peek한 데이터는 "+inputedValueByUser+" 입니다");
+                    } catch (BdStack.EmptyIntStackException e){
+                        System.out.println("Stack이 비어있습니다");
+                    }
+                    break;
+                case 4:
+                    bdStack.dump();
+                    break;
+            }
+
+        }
+
 
         // 04. linked list
     }

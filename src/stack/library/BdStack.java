@@ -43,7 +43,7 @@ public class BdStack {
     }
 
     // stack의 정상쪽에서부터 -> 바닥쪽까지 검색하는 메서드
-    public int findIndexOf(int stackStuff) {
+    public int searchStackIndex(int stackStuff) {
         for (int i = stackPointer -1; i >= 0; i --) { // 정상쪽에서 부터 선형 검색
             if (bdStack[i] == stackStuff) {
                 return i; // 찾은 검색값 반환
@@ -63,7 +63,7 @@ public class BdStack {
     }
 
     // Stack에 실제 쌓여있는 데이터의 갯수를 반환
-    public int getStackPointer() {
+    public int getStackSize() {
         return stackPointer;
     }
 
